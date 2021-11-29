@@ -26,9 +26,14 @@ const Projects = () => {
 						data-aos-easing='ease-in-out'>
 						<div className='card shadow-lg'>
 							<img
-								style={{ width: '250px', height: '300px', margin: '0 auto' }}
+								style={{
+									width: '300px',
+									height: '350px',
+									margin: '0 auto',
+									borderRadius: '40px',
+								}}
 								src={watchedWorld}
-								className='text-center'
+								className='text-center p-5'
 								alt='watches-world'
 							/>
 							<div className='ms-3 mt-3 text-dark'>
@@ -69,9 +74,14 @@ const Projects = () => {
 						data-aos-easing='ease-in-out'>
 						<div className='card shadow-lg'>
 							<img
-								style={{ width: '250px', height: '300px', margin: '0 auto' }}
+								style={{
+									width: '300px',
+									height: '350px',
+									margin: '0 auto',
+									borderRadius: '40px',
+								}}
 								src={travelWorld}
-								className='text-center'
+								className='text-center p-5'
 								alt='watches-world'
 							/>
 							<div className='ms-3 mt-3 text-dark'>
@@ -113,14 +123,14 @@ const Projects = () => {
 						<div className='card shadow-lg'>
 							<img
 								style={{
-									width: '250px',
-									height: '300px',
+									width: '300px',
+									height: '350px',
 									margin: '0 auto',
-									// borderRadius: '40px',
+									borderRadius: '40px',
 								}}
 								src={techShopImage}
-								className='text-center'
-								alt='watches-world'
+								className='text-center p-5'
+								alt='tech-shop'
 							/>
 							<div className='ms-3 mt-3 text-dark'>
 								<h5 className='fw-bold '>

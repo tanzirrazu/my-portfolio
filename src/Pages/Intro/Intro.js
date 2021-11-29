@@ -85,20 +85,35 @@ const AboutMe = () => {
 						data-aos-easing='ease-in-out'>
 						<div className='d-flex align-items-center justify-content-center '>
 							<div className='me-3'>
-								<a href='https://web.facebook.com/tanjilraju72/' target='_blank'>
+								<a
+									href='https://web.facebook.com/tanjilraju72/'
+									target='_blank'
+									rel='noreferrer'>
 									<h2 className='ms-4 text-secondary'>{facebookIcon}</h2>
 								</a>
 
-								<a href='https://twitter.com/tanzir_razu' target='_blank'>
+								<a
+									href='https://twitter.com/tanzir_razu'
+									target='_blank'
+									rel='noreferrer'>
 									<h2 className='ms-4 text-secondary'>{twitterIcon}</h2>
 								</a>
-								<a href='https://www.linkedin.com/in/tanzir-raju/' target='_blank'>
+								<a
+									href='https://www.linkedin.com/in/tanzir-raju/'
+									target='_blank'
+									rel='noreferrer'>
 									<h2 className='ms-4 text-secondary'>{linkedInIcon}</h2>
 								</a>
-								<a href='https://github.com/tanzirrazu' target='_blank'>
+								<a
+									href='https://github.com/tanzirrazu'
+									target='_blank'
+									rel='noreferrer'>
 									<h2 className='ms-4 text-secondary'>{githubIcon}</h2>
 								</a>
-								<a href='https://www.instagram.com/tanzir.razu/' target='_blank'>
+								<a
+									href='https://www.instagram.com/tanzir.razu/'
+									target='_blank'
+									rel='noreferrer'>
 									{' '}
 									<h2 className='ms-4 text-secondary'>{instagramIcon}</h2>
 								</a>
@@ -117,15 +132,6 @@ const AboutMe = () => {
 						</div>
 					</div>
 				</Col>
-				<div>
-					<a
-						href='https://docs.google.com/forms/d/e/1FAIpQLSdFs8oxCn_rGHuABL8__EmA5FWV01aPTDczmeI0V6xN0sdC0Q/viewform?usp=pp_url'
-						target='_blank'
-						rel='noreferrer'>
-						{' '}
-						<button className='btn btn-outline-info text-start'>Contact Me</button>
-					</a>
-				</div>
 			</Row>
 		</div>
 	);

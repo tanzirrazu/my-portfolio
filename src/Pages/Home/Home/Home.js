@@ -6,6 +6,7 @@ import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
 import { WifiLoader } from 'react-awesome-loaders';
 import AboutMe from './AboutMe/AboutMe';
+import ContactForm from './ContactForm/ContactForm';
 
 const Home = () => {
 	const [loading, setLoading] = useState(false);
@@ -35,6 +36,7 @@ const Home = () => {
 					<Intro />
 					<AboutMe />
 					<Projects />
+					<ContactForm />
 					<Footer />
 				</div>
 			)}
