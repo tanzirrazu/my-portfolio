@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import AboutMe from '../../AboutMe/AboutMe';
-// import ContactForm from '../../ContactForm/ContactForm';
+
 import Projects from '../../Projects/Projects';
+import Intro from '../../Intro/Intro';
 import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
 import { WifiLoader } from 'react-awesome-loaders';
+import AboutMe from './AboutMe/AboutMe';
 
 const Home = () => {
 	const [loading, setLoading] = useState(false);
@@ -31,9 +32,10 @@ const Home = () => {
 			) : (
 				<div>
 					<Header />
+					<Intro />
 					<AboutMe />
 					<Projects />
-					{/* <ContactForm /> */}
+
 					<Footer />
 				</div>
 			)}

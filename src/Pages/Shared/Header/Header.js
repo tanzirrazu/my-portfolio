@@ -10,7 +10,9 @@ const Header = () => {
 		<div className='shadow-lg'>
 			<Navbar variant='dark' bg='dark' expand='lg' fixed='top'>
 				<Container>
-					<Navbar.Brand href='#home'>Tanzir Ahmed Raju</Navbar.Brand>
+					<Navbar.Brand className='fw-bold text-muted'>
+						Tanzir <span>Ahmed</span> Raju
+					</Navbar.Brand>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='ms-auto d-flex align-items-center'>
