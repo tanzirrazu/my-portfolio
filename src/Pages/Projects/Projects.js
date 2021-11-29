@@ -47,26 +47,72 @@ const Projects = () => {
 					</div>
 				</div>
 				<div className='col'>
-					<div className='card'>
-						<img src='...' className='card-img-top' alt='...' />
-						<div className='card-body'>
-							<h5 className='card-title'>Card title</h5>
-							<p className='card-text'>
-								This is a longer card with supporting text below as a natural lead-in to
-								additional content. This content is a little bit longer.
-							</p>
+					<div className='card shadow-lg'>
+						<img
+							style={{ width: '406px', height: '350px' }}
+							src='https://i.ibb.co/27Pxgc4/travel-world.png'
+							className='text-center'
+							alt='watches-world'
+						/>
+						<div className='ms-3 mt-3'>
+							<h5 className='fw-bold'>
+								Project: <span className='fw-normal'>Travel World</span>
+							</h5>
+						</div>
+						<div className='card-body d-flex justify-content-between'>
+							<a
+								href='https://world-travel-2f872.web.app/'
+								className='text-decoration-none text-info'>
+								<h5 className='fw-bold'>Live-Link</h5>
+							</a>
+							<a
+								href='https://github.com/tanzirrazu/travel-world-client-side'
+								className='text-decoration-none text-info'>
+								<h5 className='fw-bold'>Client-Link</h5>
+							</a>
+							<a
+								href='https://github.com/tanzirrazu/travel-world-server-side'
+								className='text-decoration-none text-info'>
+								<h5 className='fw-bold'>Server-Link</h5>
+							</a>
+						</div>
+						<div className='ms-3 pb-3'>
+							<Link to='/details'>See more.....</Link>
 						</div>
 					</div>
 				</div>
 				<div className='col'>
-					<div className='card'>
-						<img src='...' className='card-img-top' alt='...' />
-						<div className='card-body'>
-							<h5 className='card-title'>Card title</h5>
-							<p className='card-text'>
-								This is a longer card with supporting text below as a natural lead-in to
-								additional content.
-							</p>
+					<div className='card shadow-lg'>
+						<img
+							style={{ width: '406px', height: '350px' }}
+							src='https://i.ibb.co/FsBgh2b/tech-shop.png'
+							className='text-center'
+							alt='watches-world'
+						/>
+						<div className='ms-3 mt-3'>
+							<h5 className='fw-bold'>
+								Project: <span className='fw-normal'>Tech Shop</span>
+							</h5>
+						</div>
+						<div className='card-body d-flex justify-content-between'>
+							<a
+								href='https://tech-shop-36432.firebaseapp.com/'
+								className='text-decoration-none text-info'>
+								<h5 className='fw-bold'>Live-Link</h5>
+							</a>
+							<a
+								href='https://github.com/tanzirrazu/Tech-shop-client-side'
+								className='text-decoration-none text-info'>
+								<h5 className='fw-bold'>Client-Link</h5>
+							</a>
+							<a
+								href='https://github.com/tanzirrazu/Tech-shop-server-side'
+								className='text-decoration-none text-info'>
+								<h5 className='fw-bold'>Server-Link</h5>
+							</a>
+						</div>
+						<div className='ms-3 pb-3'>
+							<Link to='/details'>See more.....</Link>
 						</div>
 					</div>
 				</div>
