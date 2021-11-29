@@ -68,6 +68,26 @@ const AboutMe = () => {
 						</div>
 					</div>
 				</div>
+				<div className='mt-5'>
+					<h4 className='text-decoration-underline fw-bold mb-3'>Education</h4>
+					<hr />
+					<div>
+						<h5>B.B.S – Bachelor Business Studies</h5>
+						<p>
+							Gov’t Shahid Smriti Adarsha College, Nandail, Mymensingh, Bangladesh
+						</p>
+					</div>
+				</div>
+				<div className='mt-5'>
+					<h4 className='text-decoration-underline fw-bold mb-3'>Language</h4>
+					<hr />
+					<div>
+						<h5>
+							Bangla (native), English (Basic), Hindi (conversational), Urdu
+							(conversational)
+						</h5>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
