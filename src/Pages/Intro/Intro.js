@@ -107,7 +107,8 @@ const AboutMe = () => {
 				<div>
 					<a
 						href='https://docs.google.com/forms/d/e/1FAIpQLSdFs8oxCn_rGHuABL8__EmA5FWV01aPTDczmeI0V6xN0sdC0Q/viewform?usp=pp_url'
-						target='_blank'>
+						target='_blank'
+						rel='noreferrer'>
 						{' '}
 						<button className='btn btn-outline-light text-start'>Contact Me</button>
 					</a>

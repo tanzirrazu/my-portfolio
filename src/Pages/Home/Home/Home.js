@@ -35,7 +35,6 @@ const Home = () => {
 					<Intro />
 					<AboutMe />
 					<Projects />
-
 					<Footer />
 				</div>
 			)}

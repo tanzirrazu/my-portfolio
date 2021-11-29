@@ -22,16 +22,19 @@ const Header = () => {
 							<NavLink to='/projects' className='text-decoration-none text-white ms-4'>
 								Projects
 							</NavLink>
-							<Button
+							<a
 								href='https://drive.google.com/file/d/1YNFIwGfaepAqySzKoAre4HEjC_i3Mi9S/view?usp=sharing'
 								name='resume'
 								target='_blank'
-								download
-								variant='dark'
-								className='btn btn-outline-light ms-4 rounded-pill'>
-								<span className>{downloadIcon} </span>
-								Resume
-							</Button>
+								rel='noreferrer'
+								download>
+								<Button
+									variant='dark'
+									className='btn btn-outline-light ms-4 rounded-pill'>
+									<span className>{downloadIcon} </span>
+									Resume
+								</Button>
+							</a>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
