@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import { BsCloudDownload } from 'react-icons/bs';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Header = () => {
 	const downloadIcon = <BsCloudDownload />;
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
-		<div className='shadow-lg'>
+		<div
+			className='shadow-lg'
+			data-aos='fade-left'
+			data-aos-duration='1500'
+			data-aos-easing='ease-in-out'>
 			<Navbar variant='dark' bg='dark' expand='lg' fixed='top'>
 				<Container>
 					<Navbar.Brand className='fw-bold text-muted'>

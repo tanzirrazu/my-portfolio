@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Projects = () => {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
 		<div className='container' style={{ marginTop: '70px' }}>
 			<div className='my-5'>
@@ -11,7 +15,11 @@ const Projects = () => {
 				<hr />
 			</div>
 			<div className='row row-cols-1 row-cols-md-3 g-4  mx-auto'>
-				<div className='col'>
+				<div
+					className='col'
+					data-aos='zoom-in'
+					data-aos-duration='2000'
+					data-aos-easing='ease-in-out'>
 					<div className='card shadow-lg'>
 						<img
 							style={{ width: '406px', height: '350px' }}
@@ -46,7 +54,11 @@ const Projects = () => {
 						</div>
 					</div>
 				</div>
-				<div className='col'>
+				<div
+					className='col'
+					data-aos='zoom-in-up'
+					data-aos-duration='2000'
+					data-aos-easing='ease-in-out'>
 					<div className='card shadow-lg'>
 						<img
 							style={{ width: '406px', height: '350px' }}
@@ -81,7 +93,11 @@ const Projects = () => {
 						</div>
 					</div>
 				</div>
-				<div className='col'>
+				<div
+					className='col'
+					data-aos='zoom-in-down'
+					data-aos-duration='2000'
+					data-aos-easing='ease-in-out'>
 					<div className='card shadow-lg'>
 						<img
 							style={{ width: '406px', height: '350px' }}

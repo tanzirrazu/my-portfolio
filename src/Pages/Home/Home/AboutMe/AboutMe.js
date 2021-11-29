@@ -1,17 +1,29 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const AboutMe = () => {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
 		<div>
 			<div className='my-5 container'>
-				<div className='my-5'>
+				<div
+					className='my-5'
+					data-aos='fade-left'
+					data-aos-duration='1500'
+					data-aos-easing='ease-in-out'>
 					<h1 className='text-decoration-underline fw-bold mb-3 text-center'>
 						My-Skills
 					</h1>
 					<hr />
 				</div>
 				<div className='row row-cols-1 row-cols-md-3 g-4'>
-					<div className='col '>
+					<div
+						className='col '
+						data-aos='fade-right'
+						data-aos-duration='1500'
+						data-aos-easing='ease-in-out'>
 						<div className='card  h-100 shadow-lg p-5 bg-warning'>
 							<h2 className='fw-bold text-secondary text-decoration-none mb-4'>
 								Comfortable with
@@ -33,7 +45,12 @@ const AboutMe = () => {
 							</h4>
 						</div>
 					</div>
-					<div className='col'>
+					<div
+						className='col'
+						data-aos='fade-up'
+						data-aos-duration='1500'
+						data-aos-anchor-placement='center-bottom'
+						data-aos-easing='ease-in-out'>
 						<div className='card h-100 shadow-lg p-5 bg-light'>
 							<h2 className='fw-bold text-muted text-decoration-none mb-4'>
 								Familiar with
@@ -51,7 +68,12 @@ const AboutMe = () => {
 							</h4>
 						</div>
 					</div>
-					<div className='col'>
+					<div
+						className='col'
+						data-aos='fade-up'
+						data-aos-duration='1500'
+						data-aos-anchor-placement='bottom-bottom'
+						data-aos-easing='ease-in-out'>
 						<div className='card h-100 shadow-lg p-5 bg-danger'>
 							<h2 className='fw-bold  text-muted mb-4 '>Tools</h2>
 							<h4>
@@ -66,7 +88,12 @@ const AboutMe = () => {
 						</div>
 					</div>
 				</div>
-				<div className='mt-5'>
+				<div
+					className='mt-5'
+					data-aos='fade-up'
+					data-aos-duration='1500'
+					data-aos-anchor-placement='top-center'
+					data-aos-easing='ease-in-out'>
 					<h4 className='text-decoration-underline fw-bold mb-3'>Education</h4>
 					<hr />
 					<div>
@@ -76,7 +103,12 @@ const AboutMe = () => {
 						</p>
 					</div>
 				</div>
-				<div className='mt-5'>
+				<div
+					className='mt-5'
+					data-aos='fade-up'
+					data-aos-duration='1500'
+					data-aos-anchor-placement='center-center'
+					data-aos-easing='ease-in-out'>
 					<h4 className='text-decoration-underline fw-bold mb-3'>Language</h4>
 					<hr />
 					<div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { SiMongodb } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 import { DiReact } from 'react-icons/di';
@@ -12,6 +12,8 @@ import { BsLinkedin } from 'react-icons/bs';
 import { AiFillTwitterSquare } from 'react-icons/ai';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const AboutMe = () => {
 	const mongodbIcon = <SiMongodb />;
@@ -25,7 +27,9 @@ const AboutMe = () => {
 	const twitterIcon = <AiFillTwitterSquare />;
 	const instagramIcon = <FaInstagramSquare />;
 	const githubIcon = <BsGithub />;
-
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
 		<div
 			className='bg-dark lg:vh-100 text-white'
@@ -33,7 +37,10 @@ const AboutMe = () => {
 			<Row xs={1} md={2} className='g-4 px-5 align-items-center'>
 				<Col>
 					<Card className='bg-dark'>
-						<div>
+						<div
+							data-aos='fade-down'
+							data-aos-duration='1500'
+							data-aos-easing='ease-in-out'>
 							<h1 className='fw-bold'>
 								Hello, I'm <span className='text-info'>R</span>azu Ahmed
 							</h1>
@@ -70,7 +77,11 @@ const AboutMe = () => {
 					</Card>
 				</Col>
 				<Col>
-					<div className='bg-dark '>
+					<div
+						className='bg-dark '
+						data-aos='fade-up'
+						data-aos-duration='1500'
+						data-aos-easing='ease-in-out'>
 						<div className='d-flex align-items-center justify-content-center '>
 							<div className='me-3'>
 								<a href='https://web.facebook.com/tanjilraju72/' target='_blank'>
