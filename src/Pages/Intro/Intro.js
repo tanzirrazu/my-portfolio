@@ -34,7 +34,9 @@ const AboutMe = () => {
 				<Col>
 					<Card className='bg-dark'>
 						<div>
-							<h1 className='fw-bold'>Hello, I'm Razu Ahmed</h1>
+							<h1 className='fw-bold'>
+								Hello, I'm <span className='text-info'>R</span>azu Ahmed
+							</h1>
 							<h4>
 								I'm a{' '}
 								<Typical
@@ -110,7 +112,7 @@ const AboutMe = () => {
 						target='_blank'
 						rel='noreferrer'>
 						{' '}
-						<button className='btn btn-outline-light text-start'>Contact Me</button>
+						<button className='btn btn-outline-info text-start'>Contact Me</button>
 					</a>
 				</div>
 			</Row>

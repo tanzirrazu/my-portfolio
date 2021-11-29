@@ -11,7 +11,7 @@ const Header = () => {
 			<Navbar variant='dark' bg='dark' expand='lg' fixed='top'>
 				<Container>
 					<Navbar.Brand className='fw-bold text-muted'>
-						Tanzir <span>Ahmed</span> Raju
+						Tanzir Ahmed <span className='text-info fw-bold'>R</span>aju
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
@@ -30,7 +30,7 @@ const Header = () => {
 								download>
 								<Button
 									variant='dark'
-									className='btn btn-outline-light ms-4 rounded-pill'>
+									className='btn btn-outline-info ms-4 rounded-pill'>
 									<span className>{downloadIcon} </span>
 									Resume
 								</Button>

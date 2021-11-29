@@ -11,9 +11,9 @@ const AboutMe = () => {
 					<hr />
 				</div>
 				<div className='row row-cols-1 row-cols-md-3 g-4'>
-					<div className='col'>
-						<div className='card  h-100 shadow-lg p-5'>
-							<h2 className='fw-bold text-muted text-decoration-none mb-4'>
+					<div className='col '>
+						<div className='card  h-100 shadow-lg p-5 bg-warning'>
+							<h2 className='fw-bold text-secondary text-decoration-none mb-4'>
 								Comfortable with
 							</h2>
 							<h4>
@@ -34,7 +34,7 @@ const AboutMe = () => {
 						</div>
 					</div>
 					<div className='col'>
-						<div className='card h-100 shadow-lg p-5'>
+						<div className='card h-100 shadow-lg p-5 bg-light'>
 							<h2 className='fw-bold text-muted text-decoration-none mb-4'>
 								Familiar with
 							</h2>
@@ -52,10 +52,8 @@ const AboutMe = () => {
 						</div>
 					</div>
 					<div className='col'>
-						<div className='card h-100 shadow-lg p-5'>
-							<h2 className='fw-bold text-decoration-underline text-muted mb-4 '>
-								Tools
-							</h2>
+						<div className='card h-100 shadow-lg p-5 bg-danger'>
+							<h2 className='fw-bold  text-muted mb-4 '>Tools</h2>
 							<h4>
 								<button className='btn btn-dark rounded-pill mb-3'>VS Code </button>{' '}
 								<button className='btn btn-dark rounded-pill mb-3'>FIREBASE </button>{' '}
