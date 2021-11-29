@@ -32,7 +32,7 @@ const AboutMe = () => {
 	}, []);
 	return (
 		<div
-			className='bg-dark lg:vh-100 text-white'
+			className='bg-dark text-white'
 			style={{ paddingTop: '100px', paddingBottom: '60px' }}>
 			<Row xs={1} md={2} className='g-4 px-5 align-items-center'>
 				<Col>
@@ -105,12 +105,11 @@ const AboutMe = () => {
 							<div>
 								<img
 									style={{
-										width: '280px',
+										width: '250px',
 										height: '300px',
 										borderRadius: '30px',
 									}}
 									src='https://i.ibb.co/Y7YFV1f/myimg.jpg'
-									className='img-fluid'
 									alt='my-image'
 								/>
 							</div>

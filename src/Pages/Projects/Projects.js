@@ -23,7 +23,7 @@ const Projects = () => {
 						data-aos-easing='ease-in-out'>
 						<div className='card shadow-lg'>
 							<img
-								style={{ width: '406px', height: '350px' }}
+								style={{ width: '250px', height: '300px', margin: '0 auto' }}
 								src='https://i.ibb.co/Mp1KG7s/watches-world.png'
 								className='text-center'
 								alt='watches-world'
@@ -66,7 +66,7 @@ const Projects = () => {
 						data-aos-easing='ease-in-out'>
 						<div className='card shadow-lg'>
 							<img
-								style={{ width: '406px', height: '350px' }}
+								style={{ width: '250px', height: '300px', margin: '0 auto' }}
 								src='https://i.ibb.co/27Pxgc4/travel-world.png'
 								className='text-center'
 								alt='watches-world'
@@ -109,7 +109,7 @@ const Projects = () => {
 						data-aos-easing='ease-in-out'>
 						<div className='card shadow-lg'>
 							<img
-								style={{ width: '406px', height: '350px' }}
+								style={{ width: '250px', height: '300px', margin: '0 auto' }}
 								src='https://i.ibb.co/FsBgh2b/tech-shop.png'
 								className='text-center'
 								alt='watches-world'

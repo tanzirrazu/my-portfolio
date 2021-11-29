@@ -12,7 +12,7 @@ const Header = () => {
 	}, []);
 	return (
 		<div className='shadow-lg'>
-			<Navbar variant='dark' bg='dark' expand='lg' fixed='top'>
+			<Navbar variant='dark' bg='dark' expand='lg'>
 				<Container
 					data-aos='fade-left'
 					data-aos-duration='1500'
