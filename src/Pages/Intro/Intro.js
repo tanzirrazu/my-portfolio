@@ -12,6 +12,7 @@ import { BsLinkedin } from 'react-icons/bs';
 import { AiFillTwitterSquare } from 'react-icons/ai';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
+import myImage from '../../Images/myimg.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -109,7 +110,7 @@ const AboutMe = () => {
 										height: '300px',
 										borderRadius: '30px',
 									}}
-									src='https://i.ibb.co/Y7YFV1f/myimg.jpg'
+									src={myImage}
 									alt='my-image'
 								/>
 							</div>

@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import techShopImage from '../../Images/tech-shop.png';
+import travelWorld from '../../Images/travel world.png';
+import watchedWorld from '../../Images/watches world.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Projects = () => {
@@ -24,7 +27,7 @@ const Projects = () => {
 						<div className='card shadow-lg'>
 							<img
 								style={{ width: '250px', height: '300px', margin: '0 auto' }}
-								src='https://i.ibb.co/Mp1KG7s/watches-world.png'
+								src={watchedWorld}
 								className='text-center'
 								alt='watches-world'
 							/>
@@ -67,7 +70,7 @@ const Projects = () => {
 						<div className='card shadow-lg'>
 							<img
 								style={{ width: '250px', height: '300px', margin: '0 auto' }}
-								src='https://i.ibb.co/27Pxgc4/travel-world.png'
+								src={travelWorld}
 								className='text-center'
 								alt='watches-world'
 							/>
@@ -109,8 +112,13 @@ const Projects = () => {
 						data-aos-easing='ease-in-out'>
 						<div className='card shadow-lg'>
 							<img
-								style={{ width: '250px', height: '300px', margin: '0 auto' }}
-								src='https://i.ibb.co/FsBgh2b/tech-shop.png'
+								style={{
+									width: '250px',
+									height: '300px',
+									margin: '0 auto',
+									// borderRadius: '40px',
+								}}
+								src={techShopImage}
 								className='text-center'
 								alt='watches-world'
 							/>

@@ -20,11 +20,11 @@ const AboutMe = () => {
 				</div>
 				<div className='row row-cols-1 row-cols-md-3 g-4'>
 					<div
-						className='col '
+						className='col'
 						data-aos='fade-right'
 						data-aos-duration='1500'
 						data-aos-easing='ease-in-out'>
-						<div className='card  h-100 shadow-lg p-5 bg-warning'>
+						<div className='card p-5 h-100 shadow-lg  bg-warning'>
 							<h2 className='fw-bold text-secondary text-decoration-none mb-4'>
 								Comfortable with
 							</h2>
@@ -51,7 +51,7 @@ const AboutMe = () => {
 						data-aos-duration='1500'
 						data-aos-anchor-placement='center-bottom'
 						data-aos-easing='ease-in-out'>
-						<div className='card h-100 shadow-lg p-5 bg-light'>
+						<div className='card p-5 h-100 shadow-lg p-5 bg-light'>
 							<h2 className='fw-bold text-muted text-decoration-none mb-4'>
 								Familiar with
 							</h2>
@@ -74,7 +74,7 @@ const AboutMe = () => {
 						data-aos-duration='1500'
 						data-aos-anchor-placement='bottom-bottom'
 						data-aos-easing='ease-in-out'>
-						<div className='card h-100 shadow-lg p-5 bg-danger'>
+						<div className='card p-5 h-100 shadow-lg p-5 bg-danger'>
 							<h2 className='fw-bold  text-muted mb-4 '>Tools</h2>
 							<h4>
 								<button className='btn btn-dark rounded-pill mb-3'>VS Code </button>{' '}
