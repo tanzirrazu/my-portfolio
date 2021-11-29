@@ -11,13 +11,12 @@ const Header = () => {
 		AOS.init();
 	}, []);
 	return (
-		<div
-			className='shadow-lg'
-			data-aos='fade-left'
-			data-aos-duration='1500'
-			data-aos-easing='ease-in-out'>
+		<div className='shadow-lg'>
 			<Navbar variant='dark' bg='dark' expand='lg' fixed='top'>
-				<Container>
+				<Container
+					data-aos='fade-left'
+					data-aos-duration='1500'
+					data-aos-easing='ease-in-out'>
 					<Navbar.Brand className='fw-bold text-muted'>
 						Tanzir Ahmed <span className='text-info fw-bold'>R</span>aju
 					</Navbar.Brand>

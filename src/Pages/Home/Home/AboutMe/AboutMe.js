@@ -6,8 +6,8 @@ const AboutMe = () => {
 		AOS.init();
 	}, []);
 	return (
-		<div>
-			<div className='my-5 container'>
+		<div className='bg-dark text-white'>
+			<div className='py-5 container'>
 				<div
 					className='my-5'
 					data-aos='fade-left'
