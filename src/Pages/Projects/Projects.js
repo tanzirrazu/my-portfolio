@@ -28,10 +28,14 @@ const Projects = () => {
 								className='text-center'
 								alt='watches-world'
 							/>
-							<div className='ms-3 mt-3'>
-								<h5 className='fw-bold'>
+							<div className='ms-3 mt-3 text-dark'>
+								<h5 className='fw-bold '>
 									Project: <span className='fw-normal'>Watches World</span>
 								</h5>
+								<p>
+									This is an all kinds of watch-related website. I used React, Firebase,
+									MongoDB to develop the website.
+								</p>
 							</div>
 							<div className='card-body d-flex justify-content-between'>
 								<a
@@ -67,10 +71,14 @@ const Projects = () => {
 								className='text-center'
 								alt='watches-world'
 							/>
-							<div className='ms-3 mt-3'>
-								<h5 className='fw-bold'>
+							<div className='ms-3 mt-3 text-dark'>
+								<h5 className='fw-bold '>
 									Project: <span className='fw-normal'>Travel World</span>
 								</h5>
+								<p>
+									This is a Travel or Tour Based Website. I used React, Firebase, MongoDB
+									to develop the website.
+								</p>
 							</div>
 							<div className='card-body d-flex justify-content-between'>
 								<a
@@ -106,10 +114,14 @@ const Projects = () => {
 								className='text-center'
 								alt='watches-world'
 							/>
-							<div className='ms-3 mt-3'>
-								<h5 className='fw-bold'>
+							<div className='ms-3 mt-3 text-dark'>
+								<h5 className='fw-bold '>
 									Project: <span className='fw-normal'>Tech Shop</span>
 								</h5>
+								<p>
+									This is a tech kind of product-related website. I used React, Firebase,
+									MongoDB to develop the website.
+								</p>
 							</div>
 							<div className='card-body d-flex justify-content-between'>
 								<a
