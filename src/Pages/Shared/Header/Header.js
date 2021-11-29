@@ -7,7 +7,7 @@ import { BsCloudDownload } from 'react-icons/bs';
 const Header = () => {
 	const downloadIcon = <BsCloudDownload />;
 	return (
-		<div>
+		<div className='shadow-lg'>
 			<Navbar variant='dark' bg='dark' expand='lg' fixed='top'>
 				<Container>
 					<Navbar.Brand href='#home'>Tanzir Ahmed Raju</Navbar.Brand>
