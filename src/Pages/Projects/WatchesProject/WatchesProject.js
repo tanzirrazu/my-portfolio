@@ -58,7 +58,7 @@ const WatchesProject = () => {
 							<li>In this project I use a stripe payment gateway.</li>
 							<li>Without login, user can't see product details.</li>
 							<li>An admin can make another admin.</li>
-							<li>Admin Route different and user route different.</li>
+							<li>Admin Route are different and user route are different.</li>
 						</ul>
 					</div>
 				</div>

@@ -55,9 +55,12 @@ const TechShop = () => {
 								logged in User will see the user route and the admin see the admin
 								routes.
 							</li>
-							<li>In this project I use a stripe payment gateway.</li>
-							<li>Without login, user can't see product details.</li>
-							<li>An admin can make another admin.</li>
+							<li>
+								This is a tech kind of product-related website. I used React, Firebase,
+								MongoDB to develop the website.
+							</li>
+							<li>On this website there are more than 70 products. </li>
+							<li>In this project I use a stripe payment gateway. </li>
 							<li>Admin Route different and user route different.</li>
 						</ul>
 					</div>

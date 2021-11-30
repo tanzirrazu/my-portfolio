@@ -55,10 +55,16 @@ const TravelWorld = () => {
 								logged in User will see the user route and the admin see the admin
 								routes.
 							</li>
-							<li>In this project I use a stripe payment gateway.</li>
-							<li>Without login, user can't see product details.</li>
+							<li>
+								On this website there are some tourist places. Users can be booked
+								orders where they want to go.
+							</li>
+							<li>
+								In this project I use the redirect method when users logged in then show
+								users route and when an admin logged in then show the admin route..
+							</li>
 							<li>An admin can make another admin.</li>
-							<li>Admin Route different and user route different.</li>
+							<li>Admin Route are different and user are route different.</li>
 						</ul>
 					</div>
 				</div>
