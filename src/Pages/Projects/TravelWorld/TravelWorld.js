@@ -3,8 +3,10 @@ import travelWorldImage1 from '../../../Images/travelWorld/travel1.png';
 import travelWorldImage2 from '../../../Images/travelWorld/travel2.png';
 import travelWorldImage3 from '../../../Images/travelWorld/travel3.png';
 import { BsGithub } from 'react-icons/bs';
+import { SiNetlify } from 'react-icons/si';
 const TravelWorld = () => {
 	const githubIcon = <BsGithub />;
+	const netlifyIcon = <SiNetlify />;
 	return (
 		<div className='bg-dark text-white'>
 			<h1 className='text-decoration-underline fw-bold pt-5 text-center '>
@@ -64,17 +66,17 @@ const TravelWorld = () => {
 					<a
 						href='https://world-travel-2f872.web.app/'
 						className='text-decoration-none text-info'>
-						<h5 className='fw-bold'>Live-Link</h5>
+						<h5 className='fw-bold'>{netlifyIcon} Live-Link</h5>
 					</a>
 					<a
 						href='https://github.com/tanzirrazu/travel-world-client-side'
 						className='text-decoration-none text-info'>
-						<h5 className='fw-bold'>Client-Link</h5>
+						<h5 className='fw-bold'>{githubIcon} Client-Link</h5>
 					</a>
 					<a
 						href='https://github.com/tanzirrazu/travel-world-server-side'
 						className='text-decoration-none text-info'>
-						<h5 className='fw-bold'>Server-Link</h5>
+						<h5 className='fw-bold'>{githubIcon} Server-Link</h5>
 					</a>
 				</div>
 			</div>

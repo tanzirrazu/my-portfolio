@@ -2,7 +2,11 @@ import React from 'react';
 import techShopImage1 from '../../../Images/techShop/tech1.png';
 import techShopImage2 from '../../../Images/techShop/tech2.png';
 import techShopImage3 from '../../../Images/techShop/tech3.png';
+import { BsGithub } from 'react-icons/bs';
+import { SiNetlify } from 'react-icons/si';
 const TechShop = () => {
+	const githubIcon = <BsGithub />;
+	const netlifyIcon = <SiNetlify />;
 	return (
 		<div className='bg-dark text-white'>
 			<h1 className='text-decoration-underline fw-bold pt-5 text-center '>
@@ -62,17 +66,17 @@ const TechShop = () => {
 					<a
 						href='https://tech-shop-36432.firebaseapp.com/'
 						className='text-decoration-none text-info'>
-						<h5 className='fw-bold'>Live-Link</h5>
+						<h5 className='fw-bold'>{netlifyIcon} Live-Link</h5>
 					</a>
 					<a
 						href='https://github.com/tanzirrazu/Tech-shop-client-side'
 						className='text-decoration-none text-info'>
-						<h5 className='fw-bold'>Client-Link</h5>
+						<h5 className='fw-bold'>{githubIcon} Client-Link</h5>
 					</a>
 					<a
 						href='https://github.com/tanzirrazu/Tech-shop-server-side'
 						className='text-decoration-none text-info'>
-						<h5 className='fw-bold'>Server-Link</h5>
+						<h5 className='fw-bold'>{githubIcon} Server-Link</h5>
 					</a>
 				</div>
 			</div>
