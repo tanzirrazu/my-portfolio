@@ -10,7 +10,7 @@ const Projects = () => {
 		AOS.init();
 	}, []);
 	return (
-		<div className='bg-dark text-white' id='projects'>
+		<div className='bg-dark text-white pb-5'>
 			<div className='container ' style={{ paddingTop: '70px' }}>
 				<div className='my-5'>
 					<h1 className='text-decoration-underline fw-bold mb-3 text-center '>
@@ -45,23 +45,7 @@ const Projects = () => {
 									MongoDB to develop the website.
 								</p>
 							</div>
-							<div className='card-body d-flex justify-content-between'>
-								<a
-									href='https://watch-world-9d86f.firebaseapp.com/'
-									className='text-decoration-none text-info'>
-									<h5 className='fw-bold'>Live-Link</h5>
-								</a>
-								<a
-									href='https://github.com/tanzirrazu/watches-world-client-side'
-									className='text-decoration-none text-info'>
-									<h5 className='fw-bold'>Client-Link</h5>
-								</a>
-								<a
-									href='https://github.com/tanzirrazu/watches-world-server-side'
-									className='text-decoration-none text-info'>
-									<h5 className='fw-bold'>Server-Link</h5>
-								</a>
-							</div>
+
 							<div className='ms-3 pb-3'>
 								<Link
 									to='/watchesProject'
@@ -97,23 +81,7 @@ const Projects = () => {
 									to develop the website.
 								</p>
 							</div>
-							<div className='card-body d-flex justify-content-between'>
-								<a
-									href='https://world-travel-2f872.web.app/'
-									className='text-decoration-none text-info'>
-									<h5 className='fw-bold'>Live-Link</h5>
-								</a>
-								<a
-									href='https://github.com/tanzirrazu/travel-world-client-side'
-									className='text-decoration-none text-info'>
-									<h5 className='fw-bold'>Client-Link</h5>
-								</a>
-								<a
-									href='https://github.com/tanzirrazu/travel-world-server-side'
-									className='text-decoration-none text-info'>
-									<h5 className='fw-bold'>Server-Link</h5>
-								</a>
-							</div>
+
 							<div className='ms-3 pb-3'>
 								<Link to='/travelWorld' className='btn btn-outline-dark rounded-pill'>
 									See more.....
@@ -147,23 +115,7 @@ const Projects = () => {
 									MongoDB to develop the website.
 								</p>
 							</div>
-							<div className='card-body d-flex justify-content-between'>
-								<a
-									href='https://tech-shop-36432.firebaseapp.com/'
-									className='text-decoration-none text-info'>
-									<h5 className='fw-bold'>Live-Link</h5>
-								</a>
-								<a
-									href='https://github.com/tanzirrazu/Tech-shop-client-side'
-									className='text-decoration-none text-info'>
-									<h5 className='fw-bold'>Client-Link</h5>
-								</a>
-								<a
-									href='https://github.com/tanzirrazu/Tech-shop-server-side'
-									className='text-decoration-none text-info'>
-									<h5 className='fw-bold'>Server-Link</h5>
-								</a>
-							</div>
+
 							<div className='ms-3 pb-3'>
 								<Link to='/techShop' className='btn btn-outline-dark rounded-pill'>
 									See more.....
