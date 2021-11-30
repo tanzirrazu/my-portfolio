@@ -26,8 +26,15 @@ const Header = () => {
 							<NavLink to='/home' className='text-decoration-none text-white ms-4'>
 								Home
 							</NavLink>
+							<NavLink to='/aboutMe' className='text-decoration-none text-white ms-4'>
+								About Me
+							</NavLink>
 							<NavLink to='/projects' className='text-decoration-none text-white ms-4'>
 								Projects
+							</NavLink>
+
+							<NavLink to='/blog' className='text-decoration-none text-white ms-4'>
+								Blog
 							</NavLink>
 							<a
 								href='https://drive.google.com/file/d/1YNFIwGfaepAqySzKoAre4HEjC_i3Mi9S/view?usp=sharing'

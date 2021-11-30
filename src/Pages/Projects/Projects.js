@@ -10,7 +10,7 @@ const Projects = () => {
 		AOS.init();
 	}, []);
 	return (
-		<div className='bg-dark text-white'>
+		<div className='bg-dark text-white' id='projects'>
 			<div className='container ' style={{ paddingTop: '70px' }}>
 				<div className='my-5'>
 					<h1 className='text-decoration-underline fw-bold mb-3 text-center '>
@@ -63,7 +63,11 @@ const Projects = () => {
 								</a>
 							</div>
 							<div className='ms-3 pb-3'>
-								<Link to='/details'>See more.....</Link>
+								<Link
+									to='/watchesProject'
+									className='btn btn-outline-dark rounded-pill'>
+									See more.....
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -111,7 +115,9 @@ const Projects = () => {
 								</a>
 							</div>
 							<div className='ms-3 pb-3'>
-								<Link to='/details'>See more.....</Link>
+								<Link to='/travelWorld' className='btn btn-outline-dark rounded-pill'>
+									See more.....
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -159,7 +165,9 @@ const Projects = () => {
 								</a>
 							</div>
 							<div className='ms-3 pb-3'>
-								<Link to='/details'>See more.....</Link>
+								<Link to='/techShop' className='btn btn-outline-dark rounded-pill'>
+									See more.....
+								</Link>
 							</div>
 						</div>
 					</div>

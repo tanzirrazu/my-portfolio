@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-const AboutMe = () => {
+const Skills = () => {
 	useEffect(() => {
 		AOS.init();
 	}, []);
@@ -88,39 +88,9 @@ const AboutMe = () => {
 						</div>
 					</div>
 				</div>
-				<div
-					className='mt-5'
-					data-aos='fade-up'
-					data-aos-duration='1500'
-					data-aos-anchor-placement='top-center'
-					data-aos-easing='ease-in-out'>
-					<h4 className='text-decoration-underline fw-bold mb-3'>Education</h4>
-					<hr />
-					<div>
-						<h5>B.B.S – Bachelor Business Studies</h5>
-						<p>
-							Gov’t Shahid Smriti Adarsha College, Nandail, Mymensingh, Bangladesh
-						</p>
-					</div>
-				</div>
-				<div
-					className='mt-5'
-					data-aos='fade-up'
-					data-aos-duration='1500'
-					data-aos-anchor-placement='center-center'
-					data-aos-easing='ease-in-out'>
-					<h4 className='text-decoration-underline fw-bold mb-3'>Language</h4>
-					<hr />
-					<div>
-						<h5>
-							Bangla (native), English (Basic), Hindi (conversational), Urdu
-							(conversational)
-						</h5>
-					</div>
-				</div>
 			</div>
 		</div>
 	);
 };
 
-export default AboutMe;
+export default Skills;

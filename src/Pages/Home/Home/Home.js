@@ -5,7 +5,7 @@ import Intro from '../../Intro/Intro';
 import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
 import { WifiLoader } from 'react-awesome-loaders';
-import AboutMe from './AboutMe/AboutMe';
+import Skills from './Skills/Skills';
 import ContactForm from './ContactForm/ContactForm';
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
 		setLoading(true);
 		setTimeout(() => {
 			setLoading(false);
-		}, 4000);
+		}, 1000);
 	}, []);
 
 	return (
@@ -34,7 +34,7 @@ const Home = () => {
 				<div>
 					<Header />
 					<Intro />
-					<AboutMe />
+					<Skills />
 					<Projects />
 					<ContactForm />
 					<Footer />
